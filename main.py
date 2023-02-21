@@ -10,13 +10,11 @@ logging.basicConfig(
 def start(update, context):
     user_data = update.message.from_user
     context.bot.send_message(user_data.id, "Hello.........")
-    context.bot.send_message(user_data.id, "Hello.........")
 
 
 def message_handler(update, context):
     user_data = update.message.from_user
     context.bot.send_message(user_data.id, "Hello.........")
-    print(int('l'))
 
 
 def main():
